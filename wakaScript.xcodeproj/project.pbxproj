@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16157CFF2E045CF300CE5E67 /* SwordRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 16157CFE2E045CF200CE5E67 /* SwordRPC */; };
+		166D54472E044EE1009727E3 /* BlueSocketTestCommonLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 166D54462E044EE1009727E3 /* BlueSocketTestCommonLibrary */; };
+		166D54492E044EE1009727E3 /* Socket in Frameworks */ = {isa = PBXBuildFile; productRef = 166D54482E044EE1009727E3 /* Socket */; };
+		1672BBBA2E038A26000E7AFF /* AXSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1672BBB92E038A26000E7AFF /* AXSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1672BB9C2E037F6E000E7AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1672BB852E037F6D000E7AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1672BB8C2E037F6D000E7AFF;
+			remoteInfo = wakaScript;
+		};
+		1672BBA62E037F6E000E7AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1672BB852E037F6D000E7AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1672BB8C2E037F6D000E7AFF;
+			remoteInfo = wakaScript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1672BB8D2E037F6D000E7AFF /* wakaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakaScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1672BB9B2E037F6E000E7AFF /* wakaScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1672BBA52E037F6E000E7AFF /* wakaScriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaScriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1672BB8F2E037F6D000E7AFF /* wakaScript */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScript;
+			sourceTree = "<group>";
+		};
+		1672BB9E2E037F6E000E7AFF /* wakaScriptTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScriptTests;
+			sourceTree = "<group>";
+		};
+		1672BBA82E037F6E000E7AFF /* wakaScriptUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScriptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1672BB8A2E037F6D000E7AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16157CFF2E045CF300CE5E67 /* SwordRPC in Frameworks */,
+				166D54492E044EE1009727E3 /* Socket in Frameworks */,
+				166D54472E044EE1009727E3 /* BlueSocketTestCommonLibrary in Frameworks */,
+				1672BBBA2E038A26000E7AFF /* AXSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BB982E037F6E000E7AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BBA22E037F6E000E7AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1672BB842E037F6D000E7AFF = {
+			isa = PBXGroup;
+			children = (
+				1672BB8F2E037F6D000E7AFF /* wakaScript */,
+				1672BB9E2E037F6E000E7AFF /* wakaScriptTests */,
+				1672BBA82E037F6E000E7AFF /* wakaScriptUITests */,
+				1672BB8E2E037F6D000E7AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1672BB8E2E037F6D000E7AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1672BB8D2E037F6D000E7AFF /* wakaScript.app */,
+				1672BB9B2E037F6E000E7AFF /* wakaScriptTests.xctest */,
+				1672BBA52E037F6E000E7AFF /* wakaScriptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1672BB8C2E037F6D000E7AFF /* wakaScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1672BBAF2E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScript" */;
+			buildPhases = (
+				1672BB892E037F6D000E7AFF /* Sources */,
+				1672BB8A2E037F6D000E7AFF /* Frameworks */,
+				1672BB8B2E037F6D000E7AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1672BB8F2E037F6D000E7AFF /* wakaScript */,
+			);
+			name = wakaScript;
+			packageProductDependencies = (
+				1672BBB92E038A26000E7AFF /* AXSwift */,
+				166D54462E044EE1009727E3 /* BlueSocketTestCommonLibrary */,
+				166D54482E044EE1009727E3 /* Socket */,
+				16157CFE2E045CF200CE5E67 /* SwordRPC */,
+			);
+			productName = wakaScript;
+			productReference = 1672BB8D2E037F6D000E7AFF /* wakaScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1672BB9A2E037F6E000E7AFF /* wakaScriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1672BBB22E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScriptTests" */;
+			buildPhases = (
+				1672BB972E037F6E000E7AFF /* Sources */,
+				1672BB982E037F6E000E7AFF /* Frameworks */,
+				1672BB992E037F6E000E7AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1672BB9D2E037F6E000E7AFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1672BB9E2E037F6E000E7AFF /* wakaScriptTests */,
+			);
+			name = wakaScriptTests;
+			packageProductDependencies = (
+			);
+			productName = wakaScriptTests;
+			productReference = 1672BB9B2E037F6E000E7AFF /* wakaScriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1672BBA42E037F6E000E7AFF /* wakaScriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1672BBB52E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScriptUITests" */;
+			buildPhases = (
+				1672BBA12E037F6E000E7AFF /* Sources */,
+				1672BBA22E037F6E000E7AFF /* Frameworks */,
+				1672BBA32E037F6E000E7AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1672BBA72E037F6E000E7AFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1672BBA82E037F6E000E7AFF /* wakaScriptUITests */,
+			);
+			name = wakaScriptUITests;
+			packageProductDependencies = (
+			);
+			productName = wakaScriptUITests;
+			productReference = 1672BBA52E037F6E000E7AFF /* wakaScriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1672BB852E037F6D000E7AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1672BB8C2E037F6D000E7AFF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1672BB9A2E037F6E000E7AFF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1672BB8C2E037F6D000E7AFF;
+					};
+					1672BBA42E037F6E000E7AFF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1672BB8C2E037F6D000E7AFF;
+					};
+				};
+			};
+			buildConfigurationList = 1672BB882E037F6D000E7AFF /* Build configuration list for PBXProject "wakaScript" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1672BB842E037F6D000E7AFF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1672BBB82E038A26000E7AFF /* XCRemoteSwiftPackageReference "AXSwift" */,
+				166D54452E044EE1009727E3 /* XCRemoteSwiftPackageReference "BlueSocket" */,
+				16157CFD2E045CF200CE5E67 /* XCLocalSwiftPackageReference "SwordRPC" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1672BB8E2E037F6D000E7AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1672BB8C2E037F6D000E7AFF /* wakaScript */,
+				1672BB9A2E037F6E000E7AFF /* wakaScriptTests */,
+				1672BBA42E037F6E000E7AFF /* wakaScriptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1672BB8B2E037F6D000E7AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BB992E037F6E000E7AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BBA32E037F6E000E7AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1672BB892E037F6D000E7AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BB972E037F6E000E7AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672BBA12E037F6E000E7AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1672BB9D2E037F6E000E7AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1672BB8C2E037F6D000E7AFF /* wakaScript */;
+			targetProxy = 1672BB9C2E037F6E000E7AFF /* PBXContainerItemProxy */;
+		};
+		1672BBA72E037F6E000E7AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1672BB8C2E037F6D000E7AFF /* wakaScript */;
+			targetProxy = 1672BBA62E037F6E000E7AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1672BBAD2E037F6E000E7AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1672BBAE2E037F6E000E7AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1672BBB02E037F6E000E7AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wakaScript/wakaScript.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1672BBB12E037F6E000E7AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wakaScript/wakaScript.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1672BBB32E037F6E000E7AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaScript.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wakaScript";
+			};
+			name = Debug;
+		};
+		1672BBB42E037F6E000E7AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaScript.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wakaScript";
+			};
+			name = Release;
+		};
+		1672BBB62E037F6E000E7AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wakaScript;
+			};
+			name = Debug;
+		};
+		1672BBB72E037F6E000E7AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wakatime.wakaScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wakaScript;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1672BB882E037F6D000E7AFF /* Build configuration list for PBXProject "wakaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672BBAD2E037F6E000E7AFF /* Debug */,
+				1672BBAE2E037F6E000E7AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1672BBAF2E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672BBB02E037F6E000E7AFF /* Debug */,
+				1672BBB12E037F6E000E7AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1672BBB22E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672BBB32E037F6E000E7AFF /* Debug */,
+				1672BBB42E037F6E000E7AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1672BBB52E037F6E000E7AFF /* Build configuration list for PBXNativeTarget "wakaScriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672BBB62E037F6E000E7AFF /* Debug */,
+				1672BBB72E037F6E000E7AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		16157CFD2E045CF200CE5E67 /* XCLocalSwiftPackageReference "SwordRPC" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SwordRPC;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		166D54452E044EE1009727E3 /* XCRemoteSwiftPackageReference "BlueSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/BlueSocket.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.4;
+			};
+		};
+		1672BBB82E038A26000E7AFF /* XCRemoteSwiftPackageReference "AXSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmandry/AXSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16157CFE2E045CF200CE5E67 /* SwordRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwordRPC;
+		};
+		166D54462E044EE1009727E3 /* BlueSocketTestCommonLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 166D54452E044EE1009727E3 /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = BlueSocketTestCommonLibrary;
+		};
+		166D54482E044EE1009727E3 /* Socket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 166D54452E044EE1009727E3 /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = Socket;
+		};
+		1672BBB92E038A26000E7AFF /* AXSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1672BBB82E038A26000E7AFF /* XCRemoteSwiftPackageReference "AXSwift" */;
+			productName = AXSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1672BB852E037F6D000E7AFF /* Project object */;
+}
