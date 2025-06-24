@@ -13,9 +13,12 @@ import AXSwift
 import Cocoa
 
 let scriptEditorBundleId = "com.apple.ScriptEditor2"
+var lastEditorFileURL: URL?
+var lastEditorFileContents: String?
+var lastFileSaveDates: [URL: Date] = [:]
 
-
-class ScriptEditorPresenceProvider: ObservableObject {
+class ScriptEditorPresenceProvider: ObservableObject {    
+    
 //run scrape on a timer
   var timer: Timer?
   init() {
@@ -75,8 +78,7 @@ class ScriptEditorPresenceProvider: ObservableObject {
     
     self.presenceState = .working(edState)
       
-    var lastEditorFileURL: URL?
-    
+
     //user goes to different file
     func detectFileChange(from currentFile: URL?) {
           // No valid current file nothing
@@ -86,7 +88,7 @@ class ScriptEditorPresenceProvider: ObservableObject {
           if currentFile != lastEditorFileURL {
               // File has changed
               print("File changed to: \(currentFile.lastPathComponent)")
-              ///**triggerFileChangedEvent(for: currentFile)**
+              triggerFileChangedEvent(file: currentFile)
           }
 
           // Update last known file
@@ -103,16 +105,17 @@ class ScriptEditorPresenceProvider: ObservableObject {
           """)?.executeAndReturnError(nil).stringValue
       }
       
-      var lastEditorFileContents: String?
-    //compare text debounce
+      
+    //compare text
       if let currentText = getFrontDocumentText(from: doc) {
           if currentText != lastEditorFileContents {
-              ///**triggerFileModifiedEvent()**
+              if let doc = doc {
+                  triggerFileModifiedEvent(file: doc)
+              }
           }
           lastEditorFileContents = currentText
-    
       }
-      var lastFileSaveDates: [URL: Date] = [:]
+      
       
       if let fileURL = doc {
           if let attrs = try? FileManager.default.attributesOfItem(atPath: fileURL.path),
@@ -120,7 +123,7 @@ class ScriptEditorPresenceProvider: ObservableObject {
 
                   // Check if this file was saved since the last poll
                   if let lastSaved = lastFileSaveDates[fileURL], modDate > lastSaved {
-                      //triggerFileSavedEvent(for: fileURL)
+                      triggerFileSavedEvent(file: fileURL)
                   }
 
                   // overwrite the saved time

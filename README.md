@@ -1,6 +1,6 @@
 # wakaScript
 
-the social plugin (companion app) for MacOS's Script Editor, that actually works. Includes WakaTime/Hackatime support + Discord & Slack rich presence.
+the social plugin (companion app) for MacOS's Script Editor, that actually works. Includes WakaTime/Hackatime support + Discord & Slack rich presence. Be sure to read the README before installing.
 
 **Acknowledgements**: (in no particular order)
 
@@ -19,6 +19,12 @@ Keep up with the project's status [here](https://summer.hackclub.com/projects/16
 
 Star wakaScript if you found it helpful.
 
+## Use
+wakaScript will **not** work if the file you are editing is "Untitled", as in it is a new document and has never been saved. Be sure to save new documents and title them before writing your script.
+
+## Install
+
+Recomended installation will be via [Homebrew](https://brew.sh). More info to come.
 
 ---
 wakaScript is built & maintained by me, [Jacob Prezant](https://github.com/jacobprezant).
