@@ -1,4 +1,6 @@
-# wakaScript
+# wakaScript <a href="https://summer.hackclub.com/projects/1607">
+  <img src="https://hackatime-badge.hackclub.com/U091FTUGGCT/wakaScript?aliases=XRPC,SwordRPC,BlueSocket,adobe-wakatime,macos-wakatime&logo=swift&style=plastic&link=https://summer.hackclub.com/projects/1607">
+</a>
 
 the social plugin (companion app) for MacOS's Script Editor, that actually works. Includes WakaTime/Hackatime support + Discord & Slack rich presence. Be sure to read the README before installing.
 
