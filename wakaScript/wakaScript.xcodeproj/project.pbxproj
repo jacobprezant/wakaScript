@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16428EBA2E10AA78009545D0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BF69F12E10920E005788C0 /* WidgetKit.framework */; };
+		16428EBB2E10AA78009545D0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BF69F32E10920E005788C0 /* SwiftUI.framework */; };
+		16428EC92E10AA79009545D0 /* wakaWidget3Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 16428EB92E10AA78009545D0 /* wakaWidget3Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16BF6A242E109455005788C0 /* AXSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16BF6A232E109455005788C0 /* AXSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16428EC72E10AA79009545D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BF69B82E109096005788C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16428EB82E10AA78009545D0;
+			remoteInfo = wakaWidget3Extension;
+		};
+		16BF69CF2E109097005788C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BF69B82E109096005788C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BF69BF2E109096005788C0;
+			remoteInfo = wakaScript;
+		};
+		16BF69D92E109097005788C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BF69B82E109096005788C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BF69BF2E109096005788C0;
+			remoteInfo = wakaScript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16BF6A072E10920F005788C0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				16428EC92E10AA79009545D0 /* wakaWidget3Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16428EB92E10AA78009545D0 /* wakaWidget3Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = wakaWidget3Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF69C02E109096005788C0 /* wakaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakaScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF69CE2E109097005788C0 /* wakaScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF69D82E109097005788C0 /* wakaScriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakaScriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BF69F12E10920E005788C0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		16BF69F32E10920E005788C0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		16428ECA2E10AA79009545D0 /* Exceptions for "wakaWidget3" folder in "wakaWidget3Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 16428EB82E10AA78009545D0 /* wakaWidget3Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		16428EBC2E10AA78009545D0 /* wakaWidget3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				16428ECA2E10AA79009545D0 /* Exceptions for "wakaWidget3" folder in "wakaWidget3Extension" target */,
+			);
+			path = wakaWidget3;
+			sourceTree = "<group>";
+		};
+		16BF69C22E109096005788C0 /* wakaScript */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScript;
+			sourceTree = "<group>";
+		};
+		16BF69D12E109097005788C0 /* wakaScriptTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScriptTests;
+			sourceTree = "<group>";
+		};
+		16BF69DB2E109097005788C0 /* wakaScriptUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wakaScriptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16428EB62E10AA78009545D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16428EBB2E10AA78009545D0 /* SwiftUI.framework in Frameworks */,
+				16428EBA2E10AA78009545D0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69BD2E109096005788C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BF6A242E109455005788C0 /* AXSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69CB2E109097005788C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69D52E109097005788C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BF69B72E109096005788C0 = {
+			isa = PBXGroup;
+			children = (
+				16BF69C22E109096005788C0 /* wakaScript */,
+				16BF69D12E109097005788C0 /* wakaScriptTests */,
+				16BF69DB2E109097005788C0 /* wakaScriptUITests */,
+				16428EBC2E10AA78009545D0 /* wakaWidget3 */,
+				16BF69F02E10920E005788C0 /* Frameworks */,
+				16BF69C12E109096005788C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BF69C12E109096005788C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BF69C02E109096005788C0 /* wakaScript.app */,
+				16BF69CE2E109097005788C0 /* wakaScriptTests.xctest */,
+				16BF69D82E109097005788C0 /* wakaScriptUITests.xctest */,
+				16428EB92E10AA78009545D0 /* wakaWidget3Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BF69F02E10920E005788C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BF69F12E10920E005788C0 /* WidgetKit.framework */,
+				16BF69F32E10920E005788C0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16428EB82E10AA78009545D0 /* wakaWidget3Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16428ECB2E10AA79009545D0 /* Build configuration list for PBXNativeTarget "wakaWidget3Extension" */;
+			buildPhases = (
+				16428EB52E10AA78009545D0 /* Sources */,
+				16428EB62E10AA78009545D0 /* Frameworks */,
+				16428EB72E10AA78009545D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				16428EBC2E10AA78009545D0 /* wakaWidget3 */,
+			);
+			name = wakaWidget3Extension;
+			packageProductDependencies = (
+			);
+			productName = wakaWidget3Extension;
+			productReference = 16428EB92E10AA78009545D0 /* wakaWidget3Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		16BF69BF2E109096005788C0 /* wakaScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF69E22E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScript" */;
+			buildPhases = (
+				16BF69BC2E109096005788C0 /* Sources */,
+				16BF69BD2E109096005788C0 /* Frameworks */,
+				16BF69BE2E109096005788C0 /* Resources */,
+				16BF6A072E10920F005788C0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16428EC82E10AA79009545D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16BF69C22E109096005788C0 /* wakaScript */,
+			);
+			name = wakaScript;
+			packageProductDependencies = (
+				16BF6A232E109455005788C0 /* AXSwift */,
+			);
+			productName = wakaScript;
+			productReference = 16BF69C02E109096005788C0 /* wakaScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16BF69CD2E109097005788C0 /* wakaScriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF69E52E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScriptTests" */;
+			buildPhases = (
+				16BF69CA2E109097005788C0 /* Sources */,
+				16BF69CB2E109097005788C0 /* Frameworks */,
+				16BF69CC2E109097005788C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BF69D02E109097005788C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16BF69D12E109097005788C0 /* wakaScriptTests */,
+			);
+			name = wakaScriptTests;
+			packageProductDependencies = (
+			);
+			productName = wakaScriptTests;
+			productReference = 16BF69CE2E109097005788C0 /* wakaScriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16BF69D72E109097005788C0 /* wakaScriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF69E82E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScriptUITests" */;
+			buildPhases = (
+				16BF69D42E109097005788C0 /* Sources */,
+				16BF69D52E109097005788C0 /* Frameworks */,
+				16BF69D62E109097005788C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BF69DA2E109097005788C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16BF69DB2E109097005788C0 /* wakaScriptUITests */,
+			);
+			name = wakaScriptUITests;
+			packageProductDependencies = (
+			);
+			productName = wakaScriptUITests;
+			productReference = 16BF69D82E109097005788C0 /* wakaScriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BF69B82E109096005788C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					16428EB82E10AA78009545D0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					16BF69BF2E109096005788C0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					16BF69CD2E109097005788C0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 16BF69BF2E109096005788C0;
+					};
+					16BF69D72E109097005788C0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 16BF69BF2E109096005788C0;
+					};
+				};
+			};
+			buildConfigurationList = 16BF69BB2E109096005788C0 /* Build configuration list for PBXProject "wakaScript" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16BF69B72E109096005788C0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				16BF6A222E109455005788C0 /* XCRemoteSwiftPackageReference "AXSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16BF69C12E109096005788C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BF69BF2E109096005788C0 /* wakaScript */,
+				16BF69CD2E109097005788C0 /* wakaScriptTests */,
+				16BF69D72E109097005788C0 /* wakaScriptUITests */,
+				16428EB82E10AA78009545D0 /* wakaWidget3Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16428EB72E10AA78009545D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69BE2E109096005788C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69CC2E109097005788C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69D62E109097005788C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16428EB52E10AA78009545D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69BC2E109096005788C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69CA2E109097005788C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BF69D42E109097005788C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16428EC82E10AA79009545D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16428EB82E10AA78009545D0 /* wakaWidget3Extension */;
+			targetProxy = 16428EC72E10AA79009545D0 /* PBXContainerItemProxy */;
+		};
+		16BF69D02E109097005788C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BF69BF2E109096005788C0 /* wakaScript */;
+			targetProxy = 16BF69CF2E109097005788C0 /* PBXContainerItemProxy */;
+		};
+		16BF69DA2E109097005788C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BF69BF2E109096005788C0 /* wakaScript */;
+			targetProxy = 16BF69D92E109097005788C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16428ECC2E10AA79009545D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = wakaWidget3/wakaWidget3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wakaWidget3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wakaWidget3;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScript.wakaWidget3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16428ECD2E10AA79009545D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = wakaWidget3/wakaWidget3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wakaWidget3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wakaWidget3;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScript.wakaWidget3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16BF69E02E109097005788C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16BF69E12E109097005788C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		16BF69E32E109097005788C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wakaScript/wakaScript.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "wakaScript needs AppleEvents permissions to execute AppleScript that detects when you make changes to your scripts in Script Editor. This is a required detection by WakaTime, and the contents of your script never leave your device.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16BF69E42E109097005788C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wakaScript/wakaScript.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "wakaScript needs AppleEvents permissions to execute AppleScript that detects when you make changes to your scripts in Script Editor. This is a required detection by WakaTime, and the contents of your script never leave your device.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16BF69E62E109097005788C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaScript.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wakaScript";
+			};
+			name = Debug;
+		};
+		16BF69E72E109097005788C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaScript.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wakaScript";
+			};
+			name = Release;
+		};
+		16BF69E92E109097005788C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wakaScript;
+			};
+			name = Debug;
+		};
+		16BF69EA2E109097005788C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.wakaScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wakaScript;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16428ECB2E10AA79009545D0 /* Build configuration list for PBXNativeTarget "wakaWidget3Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16428ECC2E10AA79009545D0 /* Debug */,
+				16428ECD2E10AA79009545D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF69BB2E109096005788C0 /* Build configuration list for PBXProject "wakaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF69E02E109097005788C0 /* Debug */,
+				16BF69E12E109097005788C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF69E22E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF69E32E109097005788C0 /* Debug */,
+				16BF69E42E109097005788C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF69E52E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF69E62E109097005788C0 /* Debug */,
+				16BF69E72E109097005788C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BF69E82E109097005788C0 /* Build configuration list for PBXNativeTarget "wakaScriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BF69E92E109097005788C0 /* Debug */,
+				16BF69EA2E109097005788C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16BF6A222E109455005788C0 /* XCRemoteSwiftPackageReference "AXSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmandry/AXSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16BF6A232E109455005788C0 /* AXSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16BF6A222E109455005788C0 /* XCRemoteSwiftPackageReference "AXSwift" */;
+			productName = AXSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16BF69B82E109096005788C0 /* Project object */;
+}
