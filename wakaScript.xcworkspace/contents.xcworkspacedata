@@ -13,4 +13,11 @@
    <FileRef
       location = "group:worker.js">
    </FileRef>
+   <Group
+      location = "group:iOS"
+      name = "iOS">
+      <FileRef
+         location = "group:HackatimeWidget.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

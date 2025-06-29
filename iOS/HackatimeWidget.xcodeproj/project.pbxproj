@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1679102A2E0F66FE000FE919 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167910292E0F66FE000FE919 /* WidgetKit.framework */; };
+		1679102C2E0F66FE000FE919 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1679102B2E0F66FE000FE919 /* SwiftUI.framework */; };
+		1679103D2E0F6700000FE919 /* TimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 167910272E0F66FE000FE919 /* TimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167910072E0F66E3000FE919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16790FF12E0F66E2000FE919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16790FF82E0F66E2000FE919;
+			remoteInfo = HackatimeWidget;
+		};
+		167910112E0F66E3000FE919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16790FF12E0F66E2000FE919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16790FF82E0F66E2000FE919;
+			remoteInfo = HackatimeWidget;
+		};
+		1679103B2E0F6700000FE919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16790FF12E0F66E2000FE919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167910262E0F66FE000FE919;
+			remoteInfo = TimeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		167910422E0F6700000FE919 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1679103D2E0F6700000FE919 /* TimeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16790FF92E0F66E2000FE919 /* HackatimeWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackatimeWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167910062E0F66E3000FE919 /* HackatimeWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatimeWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167910102E0F66E3000FE919 /* HackatimeWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatimeWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167910272E0F66FE000FE919 /* TimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		167910292E0F66FE000FE919 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1679102B2E0F66FE000FE919 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		167910572E0F67B5000FE919 /* TimeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1679103E2E0F6700000FE919 /* Exceptions for "TimeWidget" folder in "TimeWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 167910262E0F66FE000FE919 /* TimeWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		16790FFB2E0F66E2000FE919 /* HackatimeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HackatimeWidget;
+			sourceTree = "<group>";
+		};
+		167910092E0F66E3000FE919 /* HackatimeWidgetTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HackatimeWidgetTests;
+			sourceTree = "<group>";
+		};
+		167910132E0F66E3000FE919 /* HackatimeWidgetUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HackatimeWidgetUITests;
+			sourceTree = "<group>";
+		};
+		1679102D2E0F66FE000FE919 /* TimeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1679103E2E0F6700000FE919 /* Exceptions for "TimeWidget" folder in "TimeWidgetExtension" target */,
+			);
+			path = TimeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16790FF62E0F66E2000FE919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910032E0F66E3000FE919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679100D2E0F66E3000FE919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910242E0F66FE000FE919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1679102C2E0F66FE000FE919 /* SwiftUI.framework in Frameworks */,
+				1679102A2E0F66FE000FE919 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16790FF02E0F66E2000FE919 = {
+			isa = PBXGroup;
+			children = (
+				167910572E0F67B5000FE919 /* TimeWidgetExtension.entitlements */,
+				16790FFB2E0F66E2000FE919 /* HackatimeWidget */,
+				167910092E0F66E3000FE919 /* HackatimeWidgetTests */,
+				167910132E0F66E3000FE919 /* HackatimeWidgetUITests */,
+				1679102D2E0F66FE000FE919 /* TimeWidget */,
+				167910282E0F66FE000FE919 /* Frameworks */,
+				16790FFA2E0F66E2000FE919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16790FFA2E0F66E2000FE919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16790FF92E0F66E2000FE919 /* HackatimeWidget.app */,
+				167910062E0F66E3000FE919 /* HackatimeWidgetTests.xctest */,
+				167910102E0F66E3000FE919 /* HackatimeWidgetUITests.xctest */,
+				167910272E0F66FE000FE919 /* TimeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167910282E0F66FE000FE919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167910292E0F66FE000FE919 /* WidgetKit.framework */,
+				1679102B2E0F66FE000FE919 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16790FF82E0F66E2000FE919 /* HackatimeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679101A2E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidget" */;
+			buildPhases = (
+				16790FF52E0F66E2000FE919 /* Sources */,
+				16790FF62E0F66E2000FE919 /* Frameworks */,
+				16790FF72E0F66E2000FE919 /* Resources */,
+				167910422E0F6700000FE919 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1679103C2E0F6700000FE919 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16790FFB2E0F66E2000FE919 /* HackatimeWidget */,
+			);
+			name = HackatimeWidget;
+			packageProductDependencies = (
+			);
+			productName = HackatimeWidget;
+			productReference = 16790FF92E0F66E2000FE919 /* HackatimeWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167910052E0F66E3000FE919 /* HackatimeWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679101D2E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidgetTests" */;
+			buildPhases = (
+				167910022E0F66E3000FE919 /* Sources */,
+				167910032E0F66E3000FE919 /* Frameworks */,
+				167910042E0F66E3000FE919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167910082E0F66E3000FE919 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				167910092E0F66E3000FE919 /* HackatimeWidgetTests */,
+			);
+			name = HackatimeWidgetTests;
+			packageProductDependencies = (
+			);
+			productName = HackatimeWidgetTests;
+			productReference = 167910062E0F66E3000FE919 /* HackatimeWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1679100F2E0F66E3000FE919 /* HackatimeWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167910202E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidgetUITests" */;
+			buildPhases = (
+				1679100C2E0F66E3000FE919 /* Sources */,
+				1679100D2E0F66E3000FE919 /* Frameworks */,
+				1679100E2E0F66E3000FE919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167910122E0F66E3000FE919 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				167910132E0F66E3000FE919 /* HackatimeWidgetUITests */,
+			);
+			name = HackatimeWidgetUITests;
+			packageProductDependencies = (
+			);
+			productName = HackatimeWidgetUITests;
+			productReference = 167910102E0F66E3000FE919 /* HackatimeWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		167910262E0F66FE000FE919 /* TimeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679103F2E0F6700000FE919 /* Build configuration list for PBXNativeTarget "TimeWidgetExtension" */;
+			buildPhases = (
+				167910232E0F66FE000FE919 /* Sources */,
+				167910242E0F66FE000FE919 /* Frameworks */,
+				167910252E0F66FE000FE919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1679102D2E0F66FE000FE919 /* TimeWidget */,
+			);
+			name = TimeWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TimeWidgetExtension;
+			productReference = 167910272E0F66FE000FE919 /* TimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16790FF12E0F66E2000FE919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					16790FF82E0F66E2000FE919 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					167910052E0F66E3000FE919 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 16790FF82E0F66E2000FE919;
+					};
+					1679100F2E0F66E3000FE919 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 16790FF82E0F66E2000FE919;
+					};
+					167910262E0F66FE000FE919 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 16790FF42E0F66E2000FE919 /* Build configuration list for PBXProject "HackatimeWidget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16790FF02E0F66E2000FE919;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16790FFA2E0F66E2000FE919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16790FF82E0F66E2000FE919 /* HackatimeWidget */,
+				167910052E0F66E3000FE919 /* HackatimeWidgetTests */,
+				1679100F2E0F66E3000FE919 /* HackatimeWidgetUITests */,
+				167910262E0F66FE000FE919 /* TimeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16790FF72E0F66E2000FE919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910042E0F66E3000FE919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679100E2E0F66E3000FE919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910252E0F66FE000FE919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16790FF52E0F66E2000FE919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910022E0F66E3000FE919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1679100C2E0F66E3000FE919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167910232E0F66FE000FE919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167910082E0F66E3000FE919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16790FF82E0F66E2000FE919 /* HackatimeWidget */;
+			targetProxy = 167910072E0F66E3000FE919 /* PBXContainerItemProxy */;
+		};
+		167910122E0F66E3000FE919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16790FF82E0F66E2000FE919 /* HackatimeWidget */;
+			targetProxy = 167910112E0F66E3000FE919 /* PBXContainerItemProxy */;
+		};
+		1679103C2E0F6700000FE919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167910262E0F66FE000FE919 /* TimeWidgetExtension */;
+			targetProxy = 1679103B2E0F6700000FE919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		167910182E0F66E3000FE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		167910192E0F66E3000FE919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1679101B2E0F66E3000FE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = HackatimeWidget/HackatimeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HackatimeWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1679101C2E0F66E3000FE919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = HackatimeWidget/HackatimeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HackatimeWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1679101E2E0F66E3000FE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackatimeWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackatimeWidget";
+			};
+			name = Debug;
+		};
+		1679101F2E0F66E3000FE919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackatimeWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackatimeWidget";
+			};
+			name = Release;
+		};
+		167910212E0F66E3000FE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackatimeWidget;
+			};
+			name = Debug;
+		};
+		167910222E0F66E3000FE919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackatimeWidget;
+			};
+			name = Release;
+		};
+		167910402E0F6700000FE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TimeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidget.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167910412E0F6700000FE919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TimeWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NL256X33V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackatime.HackatimeWidget.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16790FF42E0F66E2000FE919 /* Build configuration list for PBXProject "HackatimeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167910182E0F66E3000FE919 /* Debug */,
+				167910192E0F66E3000FE919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679101A2E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679101B2E0F66E3000FE919 /* Debug */,
+				1679101C2E0F66E3000FE919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679101D2E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1679101E2E0F66E3000FE919 /* Debug */,
+				1679101F2E0F66E3000FE919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167910202E0F66E3000FE919 /* Build configuration list for PBXNativeTarget "HackatimeWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167910212E0F66E3000FE919 /* Debug */,
+				167910222E0F66E3000FE919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679103F2E0F6700000FE919 /* Build configuration list for PBXNativeTarget "TimeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167910402E0F6700000FE919 /* Debug */,
+				167910412E0F6700000FE919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16790FF12E0F66E2000FE919 /* Project object */;
+}
