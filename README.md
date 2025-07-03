@@ -28,5 +28,7 @@ wakaScript will **not** work if the file you are editing is "Untitled", as in it
 
 Recomended installation will be via [Homebrew](https://brew.sh). More info to come.
 
+The companion iOS Hackatime home screen widget app is available via [TestFlight](https://testflight.apple.com/join/Fda4449P), and the source is available at [/iOS](https://github.com/jacobprezant/wakaScript/tree/main/iOS).
+
 ---
 wakaScript is built & maintained by me, [Jacob Prezant](https://github.com/jacobprezant).
