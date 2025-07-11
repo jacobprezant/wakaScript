@@ -2,7 +2,7 @@
   <img src="https://hackatime-badge.hackclub.com/U091FTUGGCT/wakaScript?aliases=XRPC,SwordRPC,BlueSocket,adobe-wakatime,macos-wakatime&logo=swift&style=plastic&link=https://summer.hackclub.com/projects/1607">
 </a>
 
-the social plugin (companion app) for MacOS's Script Editor, that actually works. Includes WakaTime/Hackatime support + Discord & Slack rich presence. Be sure to read the README before installing.
+wakaScript is a WakaTime companion app for macOS's Script Editor with rich presence and widgets for both your desktop & iOS device.
 
 **Acknowledgements**: (in no particular order)
 
@@ -11,9 +11,7 @@ the social plugin (companion app) for MacOS's Script Editor, that actually works
 [BlueSocket](https://github.com/Kitura/BlueSocket)\
 [XRPC](https://github.com/llsc12/XRPC)
 
-wakaScript is made possible via Apple's Accessibility APIs and a pinch of AppleScript.
-
-**Status**:
+## Status
 
 wakaScript is currently in *very* early development and is **not** in a usable state yet. On release, there will be documentation.
 
@@ -24,11 +22,8 @@ Star wakaScript if you found it helpful.
 ## Use
 wakaScript will **not** work if the file you are editing is "Untitled", as in it is a new document and has never been saved. Be sure to save new documents and title them before writing your script.
 
-## Install
+## Installation
 
 Recomended installation will be via [Homebrew](https://brew.sh). More info to come.
 
 The companion iOS Hackatime home screen widget app is available via [TestFlight](https://testflight.apple.com/join/Fda4449P), and the source is available at [/iOS](https://github.com/jacobprezant/wakaScript/tree/main/iOS).
-
----
-wakaScript is built & maintained by me, [Jacob Prezant](https://github.com/jacobprezant).
